@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: #002949;
+}
+
+.header {
+    background-color: #002949;
+    height: 10vh;
+}
+
+.content {
+   margin: 10px;
+  
+}
+
+.content ul li {
+    text-decoration: none;
+    list-style: none;
+    padding: 30px;
+}
+
+.content ul li a {
+    text-decoration: none;
+    border-bottom: 2px solid #53B065;
+    font-size: 20px;
+    text-align: left;
+    padding-bottom: 20px;
+}
