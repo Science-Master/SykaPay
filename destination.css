@@ -5,8 +5,17 @@
 }
 
 .header {
-  background-color: #002949;
-  height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #002949;
+    height: 10vh;
+}
+
+
+.header .hamburger {
+  margin: 20px;
+  cursor: pointer;
 }
 
 .content {
