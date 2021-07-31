@@ -1,0 +1,13 @@
+.content h2 {
+    font-size: 56px;
+}
+
+.content button {
+    margin-bottom: 20px;
+    
+}
+
+.content #back {
+    color: #53B065;
+    text-decoration: none;
+}

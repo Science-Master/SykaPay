@@ -1,0 +1,11 @@
+.content .sqrs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.content .sqrs div {
+    border: 1px solid green;
+    padding: 20px;
+    font-size: 22px;
+}

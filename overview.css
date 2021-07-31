@@ -1,0 +1,33 @@
+.content h2 {
+    font-size: 38px;
+}
+
+.content h4 {
+    color: #002949;
+}
+
+.content input {
+    padding: 15px;
+    width: 80%;
+    font-size: 18px;
+}
+
+.content .circles{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 40%;
+    top: 35%;
+}
+.content .circles > div {
+    border-radius: 100%;
+    padding: 10px;
+    background-color: #53B065;
+}
+
+.content .circles div {
+    width: fit-content;
+    margin-right: 10px;
+    color: #fff;
+    text-align: center;
+}

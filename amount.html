@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amount Confirmation</title>
+    <link rel="stylesheet" href="/home.css">
+    <link rel="stylesheet" href="amount.css">
+</head>
+<body>
+    
+    <div class="header">
+        <img src="/logo.jpeg" alt="logo" height="50">
+
+        <div class="hamburger">
+            <svg width="30" height= "30">
+                <path d="M0 ,5 30,5" stroke="#fff" stroke-width="5"/>
+                <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+                <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+            </svg>
+        </div>
+    </div>
+
+    <div class="content">
+        <a href="/destination.html" id="back"> <--- &emsp; Back</a> <br> <br><hr>
+        <h2>Select amount you <br>would like to send:</h2>
+        <h4>Frequent amount you send:</h4> <br> <br>
+
+        <div class="circles">
+            <div class="c1">$100</div>
+            <div class="c2">$1000</div>
+            <div class="c3">$45</div> 
+        </div> <br><hr>
+        <br><br>
+
+        <h4>Or type in the amount:</h4> <br><br>
+
+        <select name="currency" id="currency">
+            <option value="USD">USD</option>
+            <option value="GHS">GHS</option>
+            <option value="EURO">EURO</option>
+        </select>
+        <input type="number" placeholder="$1000"> <br><br>
+
+        <button id="btn"><a href="/receipeint.html">Next</a></button>
+    </div>
+</body>
+</html>

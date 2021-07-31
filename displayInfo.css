@@ -1,0 +1,53 @@
+.content .btns {
+    display: flex;
+    flex-direction: row;
+}
+
+.content h4 {
+    color: #53B065;
+}
+
+.content .circles{
+    display: flex;
+    flex-direction: row;
+}
+.content .circles > div {
+    border-radius: 100%;
+    padding: 30px;
+    background-color: #53B065;
+}
+
+.content .circles div {
+    width: fit-content;
+    margin-right: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.content .btns {
+    margin-right: 30px;
+}
+
+.content #no {
+    background-color: #fff;
+    border: 1px solid #53B065;
+}
+
+.content #no a {
+    color: #53B065;
+}
+
+/* onePaymentAccount page */
+.content h2 {
+    font-size: 34px;
+}
+
+/* Verification page */
+.content h2 {
+    font-size: 34px;
+}
+
+.content h4 {
+    color: #314f66;
+    font-size: 22px;
+}

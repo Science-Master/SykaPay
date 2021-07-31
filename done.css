@@ -1,0 +1,29 @@
+/* done page */
+.content h2 {
+    font-size: 28px;
+}
+
+.content div {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: #53B065;
+    border: 0px;
+    border-radius: 50%;
+    margin-top: 20px;
+    padding: 50px;
+    width: fit-content;
+    color: #fff;
+}
+
+.content #more {
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: fit-content;
+    padding: 10px;
+}

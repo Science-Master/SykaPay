@@ -18,6 +18,11 @@
   cursor: pointer;
 }
 
+.header img {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
 .content {
   margin: 40px;
 }
@@ -38,7 +43,11 @@
   width: 70%;
   border: 0px;
   border-radius: 3px;
-  color: #fff;
   margin-left: 40px;
   font-size: 20px;
+}
+
+button a {
+  color: #fff;
+  text-decoration: none;
 }

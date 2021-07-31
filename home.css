@@ -18,6 +18,11 @@
     cursor: pointer;
 }
 
+.header img {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
 .content {
     margin: 30px;
 }

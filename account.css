@@ -10,6 +10,11 @@
     height: 10vh;
 }
 
+.header img {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
 .content {
    margin: 10px;
   

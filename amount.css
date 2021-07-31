@@ -1,0 +1,101 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header img {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.content #back {
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.content h2 {
+    font-size: 30px;
+
+}
+
+.content h4 {
+    font-size: 22px;
+    color: #53b065;
+}
+
+.content .circles{
+    display: flex;
+    flex-direction: row;
+}
+.content .circles > div {
+    border-radius: 100%;
+    padding: 30px;
+    background-color: #53B065;
+}
+
+.content .circles div {
+    width: fit-content;
+    margin-right: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+
+.content select, .content input {
+    height: 80%;
+}
+
+.content button {
+    width: 50%;
+    justify-content: center;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+/* contact list of receipeint page */
+.content #back {
+    color: #53B065;
+}
+.content .cnts {
+    display: flex;
+    flex-direction: column;
+}
+
+.content .cnts a {
+    padding-bottom: 20px;
+    font-size: 22px;
+}
+
+/* select options for account type */
+.content select {
+    margin-bottom: 20px;
+}
+
+/* confirmation page */
+.content h1 {
+    text-align: left;
+    padding: 20px;
+    font-size: 60px;
+}
+
+.content #next {
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.content #edit {
+    color: #53B065;
+    font-size: 22px;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
